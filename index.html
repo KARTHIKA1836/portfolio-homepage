@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthika - Developer Portfolio & Learning Tracker</title>
+    <meta name="description" content="Portfolio and learning tracker of Karthika, an aspiring Full Stack Developer.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Karthika<span>.dev</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#tracker">Tracker</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary nav-btn">Contact Me</a>
+            <!-- Mobile Menu Toggle Placeholder -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="greeting">Hi, I am</p>
+                <h1 class="name">Karthika</h1>
+                <h2 class="subtitle">Aspiring Full Stack Developer</h2>
+                <p class="hero-desc">I build responsive web applications and I'm currently on a journey to master full-stack development. Welcome to my portfolio and learning tracker.</p>
+                <div class="hero-actions">
+                    <a href="#tracker" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/KARTHIKA.jpeg" alt="Karthika">
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>Hello! I'm Karthika, an enthusiastic learner and aspiring full-stack developer. I have a strong passion for coding and building user-centric web applications. Currently, I am expanding my knowledge across both frontend and backend technologies.</p>
+                <p>My goal is to create scalable, efficient, and visually appealing software solutions. Through continuous learning, building projects, and solving problems, I am solidifying my foundation in web development.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="grid cards-grid">
+                <div class="card skill-card">
+                    <h3>HTML,CSS</h3>
+                </div>
+                <div class="card skill-card">
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="card skill-card">
+                    <h3>Python basics</h3>
+                </div>
+                <div class="card skill-card">
+                    <h3>React</h3>
+                </div>
+                <div class="card skill-card">
+                    <h3>Java</h3>
+                </div>
+                <div class="card skill-card">
+                    <h3>Spring Boot</h3>
+                </div>
+                <div class="card skill-card">
+                    <h3>Oracle-SQL</h3>
+                </div>
+                <div class="card skill-card">
+                    <h3>API Development</h3>
+                </div>
+                <div class="card skill-card">
+                    <h3>MongoDB</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Tracker / Portfolio -->
+    <section id="tracker" class="section">
+        <div class="container">
+            <h2 class="section-title">Learning Tracker & Portfolio</h2>
+            
+            <div class="tracker-section">
+                <h3 class="subsection-title">Recent Projects</h3>
+                <div class="grid projects-grid">
+                    <div class="card project-card">
+                        <img src="images/outpass-management.png" alt="Leave Management System" class="project-img">
+                        <div class="card-body">
+                            <h4>Leave Management System</h4>
+                            <p>A responsive web application for managing Student outpass requests and approvals in colleges,platform built with modern web technologies like React, MongoDB and Spring Boot.</p>
+                            <a href="#" class="card-link">View Project &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="card project-card">
+                        <img src="images/movie-ticket.png" alt="Movie Ticket Booking System" class="project-img">
+                        <div class="card-body">
+                            <h4>Movie Ticket Booking System</h4>
+                            <p>A full-stack application for booking movie tickets online with JWT authentication, Razorpay payment integration, and MongoDB integration.</p>
+                            <a href="#" class="card-link">View Project &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="card project-card">
+                        <img src="images/weather-widget.png" alt="Weather Widget" class="project-img">
+                        <div class="card-body">
+                            <h4>Weather Widget</h4>
+                            <p>An API-driven weather widget that fetches real-time data and updates UI backgrounds based on weather conditions.</p>
+                            <a href="#" class="card-link">View Project &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tracker-section mt-5">
+                <h3 class="subsection-title">Certifications</h3>
+                <div class="grid certifications-grid">
+                    <div class="card certification-card">
+                        <h4>Responsive Web Design</h4>
+                        <p class="meta">freeCodeCamp &bull; 2026</p>
+                    </div>
+                    <div class="card certification-card">
+                        <h4>JavaScript Algorithms</h4>
+                        <p class="meta">freeCodeCamp &bull; 2026</p>
+                    </div>
+                    <div class="card certification-card">
+                        <h4>Frontend Fundamentals</h4>
+                        <p class="meta">Coursera &bull; 2025</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tracker-section mt-5">
+                <h3 class="subsection-title">Achievements</h3>
+                <div class="grid achievements-grid">
+                    <div class="card achievement-card">
+                        <div class="achievement-icon">🏆</div>
+                        <h4>30 Days of Code Challenge</h4>
+                        <p>Successfully completed a 30-day consistent coding streak, building a new project every day.</p>
+                    </div>
+                    <div class="card achievement-card">
+                        <div class="achievement-icon">🌟</div>
+                        <h4>Hackathon Finalist</h4>
+                        <p>Reached the top 10 in a local university hackathon by building a community-driven web app.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title text-center">Get In Touch</h2>
+            <p class="contact-desc text-center">I'm currently looking for new opportunities and collaborations. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+            <div class="contact-links">
+                <a href="mailto:karthikakumar1836@gmail.com" class="btn btn-outline">Email Me</a>
+                <a href="https://www.linkedin.com/in/karthika-k-804274299" target="_blank" class="btn btn-outline">LinkedIn</a>
+                <a href="https://github.com/KARTHIKA1836" target="_blank" class="btn btn-outline">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Karthika. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
