@@ -176,19 +176,39 @@ ul {
     color: var(--text-primary);
 }
 
-.hamburger {
-    display: none;
-    flex-direction: column;
-    gap: 5px;
-    cursor: pointer;
+.hamburger{
+    display:none;
+    cursor:pointer;
 }
 
-.hamburger span {
-    width: 25px;
-    height: 3px;
-    background-color: var(--text-primary);
-    border-radius: 2px;
-    transition: var(--transition);
+.hamburger span{
+    display:block;
+    width:25px;
+    height:3px;
+    margin:5px;
+    background:white;
+}
+
+@media(max-width:768px){
+
+    .hamburger{
+        display:block;
+    }
+
+    .nav-links{
+        display:none;
+        flex-direction:column;
+        position:absolute;
+        top:70px;
+        right:20px;
+        background:#0b132b;
+        padding:20px;
+        border-radius:10px;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
 }
 
 /* Hero Section */
