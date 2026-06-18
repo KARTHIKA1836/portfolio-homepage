@@ -66,8 +66,15 @@ portfolio/
 
 Portfolio Website:  https://lnkd.in/gkJQgiZs
 
+📬 Contact
+
+📧 Email: karthikakumar1836@gmail.com
+
+💼 LinkedIn: www.linkedin.com/in/karthika-k-804274299
 
 
----
+🐙 GitHub: https://github.com/KARTHIKA1836
+
+
 
 Thank you for visiting my portfolio repository. Feel free to explore the projects and connect with me! ⭐
